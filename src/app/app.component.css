@@ -1,0 +1,23 @@
+/* :host ::ng-deep .p-card .p-card-body .p-card-content {
+   padding: 0;
+}
+
+ */
+
+/* :host ::ng-deep .p-card .p-card-body .p-card-content{
+   padding: 0;
+} */
+
+::ng-deep .p-card .p-card-body {
+   padding: 0.8rem !important;
+}
+
+#premium {
+   transform: scale(1.05);
+}
+
+@media(max-width:48rem){
+   #premium{
+      transform: scale(1.0);
+   }
+}
